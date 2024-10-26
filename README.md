@@ -1,4 +1,4 @@
-# Text Submission App
+# Text Submission App Using Flask
 
 This is a simple web application that allows users to submit text, which is then saved in a text file on the server. This project uses **Flask** for the backend, **HTML** and **CSS** for the frontend, and **Docker Compose** for easy deployment with separate containers for frontend and backend services.
 
