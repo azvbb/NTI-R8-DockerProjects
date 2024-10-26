@@ -4,7 +4,7 @@ This is a simple web application that allows users to submit text, which is then
 
 ## Usage
 
-After running `docker-compose up`, the **Frontend** and **Backend** containers will be up and running. Follow these steps to use the application:
+After running `docker compose up`, the **Frontend** and **Backend** containers will be up and running. Follow these steps to use the application:
 
 1. **Access the Application**:  
    Open your browser and go to [http://localhost:8080](http://localhost:8080).
@@ -23,7 +23,7 @@ This project demonstrates how multiple Docker containers can interact through a 
 
 ## Usage
 
-After running `docker-compose up`, you can verify the files created in the shared volume by checking the logs of **container_3**.
+After running `docker compose up`, you can verify the files created in the shared volume by checking the logs of **container_3**.
 
 1. **View Created Files**:  
    Check the logs of `container_3` by running:
