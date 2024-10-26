@@ -33,5 +33,3 @@ After running `docker-compose up`, you can verify the files created in the share
 
 2. **Expected Output**:  
    You will find two `.txt` files named after the hostnames (container IDs) of `container_1` and `container_2`. These files are created in the shared `demo_volume`, making data accessible across containers.
-
-This explanation makes it easy for users to understand how to verify that the setup is working c
