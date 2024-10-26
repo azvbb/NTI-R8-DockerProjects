@@ -16,9 +16,12 @@ services:
   container_3:
     image: alpine
     container_name: container_3
-    command: ["sh", "-c", "ls /data"]
+    command: ["sh", "-c", "sleep 2 && ls /data"]
     volumes:
       - demo_volume:/data
+    depends_on:
+      - container_1
+      - container_2
 
 volumes:
   demo_volume:
